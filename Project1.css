@@ -1,0 +1,302 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    text-transform: capitalize;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+section{
+    min-height: 100vh;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 3rem;
+    padding:1rem;
+}
+
+header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left:0;
+    padding:2.5rem;
+    background-color: black;
+}
+header .navbar a{
+    font-size: 1rem;
+    /*margin-left: .5rem;*/
+    padding:1rem;
+    border-radius: .2rem;
+    color:white;
+}
+header .navbar a.active,
+header .navbar a:hover{
+    color:red;
+    text-decoration-line: underline;
+}
+#menu{
+    font-size: 3rem;
+    color:blue;
+    cursor: pointer;
+    display: none;
+}
+.home .box-container{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+}
+.home .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    margin:1rem;
+    padding:6rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.home .box-container .box h3{
+    color:black;
+    font-size: 2rem;
+}
+.home .box-container .box h3 span{
+    color: blue;
+}
+.home .box-container .box h1{
+    color:red;
+    font-size: 4rem;
+    padding:1rem;
+}
+.home .box-container .box button{
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5 0.5 0 0;
+    margin-top: 1rem;
+}
+.home .box-container .box img{
+    height:100%;
+    width: 100%;
+    padding:1rem;
+}
+/*2 section*/
+
+.box-container_end .box{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.box-container_end .box h3{
+     font-size: 1rem;
+    /*margin-left: .5rem;*/
+    padding:1rem;
+    border-radius: .2rem;
+    color: white;
+}
+.box-container_end .box h3 .btn{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+.box-container_end .box button{
+    background-color: red;
+    color: white;
+    font-size:1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/*3 section*/
+.box-container-Services{
+   display: flex;
+    justify-content: center;
+
+}
+.box-container-Services{
+     width: 100%;
+}
+
+.box-container-Services .box-Services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: -10;
+    padding:0;
+}
+
+.box-container-Services .box-Services .boxm img{
+    width:10rem;
+    height: 10rem;
+    padding:1rem;
+    margin-right: 2rem;
+    margin-left:2rem;
+}
+
+.box-container-Services .box-Services .Content h3{
+    font-size: 1.5rem;
+    color:black;
+    margin-right: 2rem;
+    margin-left:2rem;
+    margin-bottom: .5rem;
+
+}
+.box-container-Services .box-Services .Content p{
+    font-size: 1rem;
+    color:black;
+    margin-right: 2rem;
+    text-align: center;
+    margin-left:2rem;
+}
+.box-container-Services .box-Services .Content button{
+    font-size: 1.5rem;
+    color:white;
+    background-color: red;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left:2rem;
+}
+
+/*Section 4*/
+
+.AboutUs .box-container-AboutUs{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AboutUs .box-container-AboutUs .boxa{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+   /* margin:1rem;
+    padding:1rem;*/
+    text-align: left;
+    margin-top: -10rem;
+    padding: -12;
+}
+.AboutUs .box-container-AboutUs .boxa h1{
+    color:black;
+    font-size: 2rem;
+    padding:1rem;
+}
+.AboutUs .box-container-AboutUs .boxa h1:hover{
+    color:red;
+    text-decoration-line: underline;
+}
+.AboutUs .box-container-AboutUs .boxa p{
+    color:black;
+    font-size: 1rem;
+    padding:1rem;
+}
+.AboutUs .box-container-AboutUs .boxa img{
+    height:100%;
+    width: 100%;
+}
+
+/*section 5*/
+
+.box-container-Popular{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -20rem;
+}
+
+.box-container-Popular .box-Popular{
+    display: flex;
+    justify-content: ;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container-Popular .box-Popular .boxp img{
+    width:18rem;
+    height:18rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.box-container-Popular  .box-Popular .Content h3{
+    font-size: 2rem;
+    margin-left:-10rem;
+    margin-top: +8rem;
+}
+
+.box-container-Popular  .box-Popular .Content button{
+    font-size: 1.5rem;
+    color:white;
+    background-color: red;
+    margin-top: 1rem;
+    margin-left: -10rem;
+}
+
+/*section 6*/
+
+.Contact{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: -20rem;
+}
+.box-container-Contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex:1 1 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Contact .box-container-Contact .boxx h2{
+    font-size: 1.5rem;
+    color: white;
+}
+.Contact .box-container-Contact .boxx img{
+    width:18rem;
+    height:18rem;
+    /*margin-top: +20rem;*/
+}
+
+.Contact .box-container-Contact .boxx a{
+    font-size: 1rem;
+    color: white;
+}
+.Contact .box-container-Contact .boxx a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+
+.Contact .credit{
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    padding:2.5rem 1rem;
+    color:red;
+}
